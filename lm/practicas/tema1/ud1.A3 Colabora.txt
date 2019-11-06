@@ -1,0 +1,37 @@
+//Cuestionario 
+//Realizado por Alejandro Rodríguez Romero
+
+//1.- Un lenguaje de marcas es..{
+-una forma de leer los 0 y 1 que el ordenador procesa.
+-un lenguaje con el que el ordenador realiza operaciones aritméticas.
+=una forma de codificar un documento que incorpora etiquetas o marcas que contienen información adicional sobre la estructura del texto.
+-un tipo de escritura que realizamos con el navegador.
+}
+
+//2.- De estas 4 opciones ¿cual es el lenguaje de marcas mas extendido en la World Wide Web?{
+=HTML
+-C
+-Logo
+-BASIC
+}
+
+//3.- Los lenguajes de marcado de presentación son..{
+-donde se puede codificar las marcas con un editor.
+-donde no se especifica cómo hay que procesar el texto sino que se utilizan etiquetas.
+-donde se incluyen instrucciones de cómo hay que procesar el texto.
+=donde se muestra la presentación, pero es difícil extraer la información.
+}
+
+//4.- ¿Cual es el consorcio internacional que produce recomendaciones para la world wide web?{
+-HTML
+-WWW
+=W3C
+-Intel
+}
+
+//5.- ¿Cual de estas opciones emplea el vocabulario de HTML pero con reglas sintácticas del XML?{
+-HXML
+=XHTML
+-XSGML
+-HTXML
+}
