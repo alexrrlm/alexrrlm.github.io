@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Turismo Córdoba</title>
+		<meta name="description" content="Córdoba ciudad patrimonio">
+		<meta name="keywords" content="Turismo, patrimonio, viajes">
+		<!--link rel="stylesheet" href="estilos.css"-->
+	</head>
+	
+	<body>
+		<header>
+			<h1>Alejandro Rodríguez Romero</h1>
+            <h3>Lenguaje de Marcas 19/20</h3>
+		</header>
+		
+		<nav>
+            <ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="cordobapatrimonio/index.html" target="_blank">Turismo Córdoba</a></li>
+            <li><a href="practicas/index.html" target="_blank">Prácticas</a></li>
+            </ul>
+		</nav>
+		
+		<footer>
+				&copy; Todos los derechos...
+		</footer>
+	</body>
+</html>
