@@ -1,0 +1,21 @@
+*{
+    background-color: darkgreen
+}
+section *{
+    background: #FFF8DC;
+}
+section{
+    border: solid 4px yellow;
+    margin: 0px 250px;
+    background: #FFF8DC;
+    padding: 10px;
+}
+section h2{
+    color: #FF7F50;
+}
+section p{
+    color: #FFB45D;
+}
+section a{
+    color: #FFB45D;
+}

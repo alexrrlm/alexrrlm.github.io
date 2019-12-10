@@ -1,0 +1,10 @@
+body{
+    background-color: blue;
+}
+
+p.prueba{
+    background-color: grey; 
+    border: solid 1vh yellow;
+    padding: 30px;
+    margin: 30vh;
+}

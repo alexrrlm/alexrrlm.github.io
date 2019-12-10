@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+        'cabecera cabecera cabecera cabecera cabecera cabecera'
+        'izquierda centro centro centro centro derecha'
+        'pie pie pie pie pie pie';
+    background-color: #dcedc8;
+}
+.cabecera{
+    grid-area: cabecera;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 10vh;
+    border-bottom: solid 4px #33691e;
+    background-color: #dcedc8;
+}
+.cabecera h1{
+    margin: 0px 50px;
+    
+}
+.izquierda{
+    grid-area: izquierda;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 30px;
+    border-bottom: solid 4px #33691e;
+    border-right: solid 4px #33691e;
+    background-color: #dcedc8;
+}
+.izquierda a{
+    border: solid 3px #33691e;
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: #9ccc65;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 2px 3px #4b4b4b;
+}
+.centro{
+    grid-area: centro;
+    display: flex;
+    flex-flow: column;
+    border-bottom: solid 4px #33691e;
+    background-color: #dcedc8;
+}
+article{
+    margin: 15px;
+}
+article h2{
+    margin: 15px;
+}
+.centro p{
+    text-align: justify;
+}
+.derecha{
+    grid-area: derecha;
+    display: flex;
+    flex-flow: column;
+    border-bottom: solid 4px #33691e;
+    border-left: solid 4px #33691e;
+    background-color: #dcedc8;
+}
+.derecha h2{
+    padding: 10px;
+    text-align: center;
+    border-bottom: solid 4px #33691e;
+}
+.derecha h3{
+    padding: 10px;
+    text-align: center;
+}
+.derecha p{
+    padding: 10px;
+    text-align: center;
+}
+.derecha a{
+    padding: 10px;
+    text-align: center;
+}
+.pie{
+    grid-area: pie;
+    display: flex;
+    flex-flow: row;
+    background-color: #dcedc8;
+    align-items: center;
+    height: 100px;
+}
+.pie a{
+    margin: 0px 40px
+}
+.pie p{
+    margin: 0px 40px
+}

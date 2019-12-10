@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Oswald;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+        'cabecera cabecera cabecera cabecera cabecera cabecera'
+        'contenido contenido contenido contenido contenido contenido'
+        'pie pie pie pie pie pie'; 
+}
+header{
+    grid-area: cabecera;
+    display: flex;
+    flex-flow: row;
+    border-bottom: solid white 2px;
+    background-color: #850000;
+    height: 20vh;
+    align-content: center;
+    align-items: center;
+    text-shadow: 1px 1px black;
+}
+.titulo{
+    flex: 40%;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.menu{
+    flex: 60%;
+    align-content: center;
+    text-align: center;
+}
+.menu a{
+    align-content: center;
+    text-align: center;
+    border: solid;
+    padding: 20px;
+    margin: 0px 20px;
+    text-transform: uppercase;
+    transition: color 1s;
+}
+.menu a:hover{
+    color: #90AFC5;
+}
+.active{
+    color: #90AFC5;
+}
+section{
+    grid-area: contenido;
+    display: flex;
+    flex-flow: column;
+    height: 65vh;
+    background: url(../img/informatica.jpg) no-repeat fixed center;
+}
+.submenu{
+    display: flex;
+    background-color: #850000;
+    border-bottom: solid white 2px;
+    padding: 10px;
+    justify-content: center;
+}
+.submenu a{
+    margin: 0px 10px;
+    transition: color 1s;
+    transition: border 1s;
+    border-bottom: 2px solid #850000;
+}
+.submenu a:hover{
+    color: #90AFC5;
+    border-bottom: 2px solid #90AFC5;
+}
+.submenu .activesub{
+    color: #90AFC5;
+    border-bottom: 2px solid #90AFC5;
+}
+.ejercicios{
+    display: grid;
+    grid-template-areas: 
+        'actividades actividades actividades actividades actividades actividades actividades actividades actividades actividades'
+        'actividades actividades actividades actividades actividades actividades actividades actividades actividades actividades'
+        'actividades actividades actividades actividades actividades actividades actividades actividades actividades actividades';
+    border: 2px solid white;
+    margin: 100px;
+    height: 61%;
+    background: #850000;
+    justify-content: center;
+    align-items: center;
+}
+.ejercicios a{
+    margin: 30px;
+    transition: color 1s;
+}
+.ejercicios a:hover{
+    color: #90AFC5;
+}
+footer{
+    grid-area: pie;
+    display: flex;
+    height: 15vh;
+    border-top: solid white 2px;
+    background-color: #850000;
+    text-shadow: 1px 1px black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+footer h4{
+    padding: 0px 40px;
+}
+footer p{
+    padding: 0px 40px;
+}

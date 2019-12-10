@@ -1,0 +1,27 @@
+#img1 {
+    display: block;
+    width: 300px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+#img2 {
+    display: block;
+    width: 300px;
+    -webkit-filter: drop-shadow(2px 4px 6px black);
+    -moz-filter: drop-shadow(2px 4px 6px black);
+    -o-filter: drop-shadow(2px 4px 6px black);
+    -ms-filter: drop-shadow(2px 4px 6px black);
+    filter: drop-shadow(2px 4px 6px black);
+}
+#img3 {
+    display: block;
+    width: 300px;
+    -webkit-filter: hue-rotate(1000deg);
+    -moz-filter: hue-rotate(1000deg);
+    -o-filter: hue-rotate(1000deg);
+    -ms-filter: hue-rotate(1000deg);
+    filter: hue-rotate(1000deg);
+}
