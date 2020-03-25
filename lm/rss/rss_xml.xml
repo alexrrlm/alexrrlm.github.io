@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+    <channel>
+      <title>LENGUAJE MARCAS: XML</title>
+      <item>
+        <title>Prueba XML</title>
+        <link>https://github.com/alexrrlm/xmlalex</link>
+        <description>Descripción de la prueba</description>
+      </item>
+    </channel>
+</rss>
+
