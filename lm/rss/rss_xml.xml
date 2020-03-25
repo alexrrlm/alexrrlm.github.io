@@ -7,6 +7,11 @@
         <link>https://github.com/alexrrlm/xmlalex/blob/master/Ejercicios%20XSD/Clases%20online/paises.xml</link>
         <description>XSD de paies</description>
       </item>
+      <item>
+        <title>XSD Personas</title>
+        <link>https://github.com/alexrrlm/xmlalex/blob/master/Ejercicios%20XSD/Clases%20online/personas.xml</link>
+        <description>XSD de personas</description>
+      </item>
     </channel>
 </rss>
 
