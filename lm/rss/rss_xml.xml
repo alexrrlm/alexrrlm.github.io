@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<rss>
+<rss version="2.0">
     <channel>
       <title>LENGUAJE MARCAS: XML</title>
       <item>
-        <title>Prueba XML</title>
-        <link>https://github.com/alexrrlm/xmlalex</link>
-        <description>Descripción de la prueba</description>
+        <title>XSD Paises</title>
+        <link>https://github.com/alexrrlm/xmlalex/blob/master/Ejercicios%20XSD/Clases%20online/paises.xml</link>
+        <description>XSD de paies</description>
       </item>
     </channel>
 </rss>
