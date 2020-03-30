@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+      <title>LENGUAJE MARCAS: XML</title>
+      <item>
+        <title>XSD Paises</title>
+        <link>https://github.com/alexrrlm/xmlalex/blob/master/Ejercicios%20XSD/Clases%20online/paises.xml</link>
+        <description>XSD de paies</description>
+      </item>
+      <item>
+        <title>XSD Personas</title>
+        <link>https://github.com/alexrrlm/xmlalex/blob/master/Ejercicios%20XSD/Clases%20online/personas.xml</link>
+        <description>XSD de personas</description>
+      </item>
+    </channel>
+</rss>
+
