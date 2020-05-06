@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores[
+<!ELEMENT errores (error*)>
+<!ELEMENT error (descripcion,actividad,fecha_hora,linea,columna)>
+<!ATTLIST error id ID #REQUIRED>
+<!ATTLIST error tipo (Aviso|Warning|Fatal) "Aviso">
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT actividad (#PCDATA)>
+<!ELEMENT fecha_hora (#PCDATA)>
+<!ELEMENT linea (#PCDATA)>
+<!ELEMENT columna (#PCDATA)>
+]>
+
+<errores>
+    <error id="n1" tipo="Aviso">
+      <descripcion>
+        Tipos no coinciden
+      </descripcion>
+      <actividad>
+        Ejercicio2.xml
+      </actividad>
+      <fecha_hora>
+        17/02/2020:8:50
+      </fecha_hora>
+      <linea>
+        15
+      </linea>
+      <columna>
+        3
+      </columna>
+    </error>
+    
+    <error id="n2" tipo="Warning">
+      <descripcion>
+        El elemento pais no está permitido para el modelo de contenido.
+      </descripcion>
+      <actividad>
+        Ejercicio13.xml
+      </actividad>
+      <fecha_hora>
+        17/02/2020:9:30
+      </fecha_hora>
+      <linea>
+        16
+      </linea>
+      <columna>
+        12
+      </columna>
+    </error>
+    
+     <error id="n3" tipo="Warning">
+      <descripcion>
+        Falta cierre de etiqueta
+      </descripcion>
+      <actividad>
+        Ejercicio14.xml
+      </actividad>
+      <fecha_hora>
+        17/02/2020:9:45
+      </fecha_hora>
+      <linea>
+        13
+      </linea>
+      <columna>
+        3
+      </columna>
+    </error>
+    
+    <error id="n4" tipo="Warning">
+      <descripcion>
+        Falta añadir agenda como raiz
+      </descripcion>
+      <actividad>
+        Ejercicio14.xml
+      </actividad>
+      <fecha_hora>
+        17/02/2020:9:45
+      </fecha_hora>
+      <linea>
+        13
+      </linea>
+      <columna>
+        3
+      </columna>
+    </error>
+    
+    <error id="n5" tipo="Fatal">
+      <descripcion>
+        Falta añadir id a la primera persona
+      </descripcion>
+      <actividad>
+        Ejercicio14.xml
+      </actividad>
+      <fecha_hora>
+        17/02/2020:9:51
+      </fecha_hora>
+      <linea>
+        11
+      </linea>
+      <columna>
+        12
+      </columna>
+    </error>
+    
+    <error id="n6" tipo="Fatal">
+      <descripcion>
+        Falta declarar el elemento tw
+      </descripcion>
+      <actividad>
+        Ejercicio14.xml
+      </actividad>
+      <fecha_hora>
+        17/02/2020:9:53
+      </fecha_hora>
+      <linea>
+        18
+      </linea>
+      <columna>
+        9
+      </columna>
+    </error>
+    
+    <error id="n7" tipo="Fatal">
+      <descripcion>
+        Añadir asterisco a tw declarado.
+      </descripcion>
+      <actividad>
+        Ejercicio14.xml
+      </actividad>
+      <fecha_hora>
+        17/02/2020:9:56
+      </fecha_hora>
+      <linea>
+        15
+      </linea>
+      <columna>
+        13
+      </columna>
+    </error>
+</errores>

@@ -1,16 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-      <title>LENGUAJE MARCAS: XML</title>
+      <title>LENGUAJE MARCAS: HTML</title>
       <item>
-        <title>XSD Paises</title>
-        <link>https://github.com/alexrrlm/xmlalex/blob/master/Ejercicios%20XSD/Clases%20online/paises.xml</link>
-        <description>XSD de paies</description>
+        <title>ud1.A1 Documento de Presentación</title>
+        <link>https://alexrrlm.github.io/lm/practicas/tema1/actividades/ud1.A1%20Documento%20de%20Presentaci%C3%B3n.pdf</link>
+        <description>Documento pdf de presentacion</description>
       </item>
       <item>
-        <title>XSD Personas</title>
-        <link>https://github.com/alexrrlm/xmlalex/blob/master/Ejercicios%20XSD/Clases%20online/personas.xml</link>
-        <description>XSD de personas</description>
+        <title>ud1.A2 Investiga</title>
+        <link>https://alexrrlm.github.io/lm/practicas/tema1/actividades/ud1.A2%20Investiga.pdf</link>
+        <description>Documento pdf de ruta</description>
+      </item>
+	  <item>
+        <title>ud1.A3 Colabora</title>
+        <link>https://alexrrlm.github.io/lm/practicas/tema1/actividades/ud1.A3%20Colabora.txt</link>
+        <description>Fichero txt de preguntas basicas</description>
+      </item>
+	  <item>
+        <title>ud2.A3 Probando HTTP</title>
+        <link>https://alexrrlm.github.io/lm/practicas/tema1/actividades/ud1.A3%20Colabora.txt</link>
+        <description>Documento pdf de preguntas de http</description>
       </item>
     </channel>
 </rss>

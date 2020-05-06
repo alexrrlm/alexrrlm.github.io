@@ -1,0 +1,22 @@
+- Falta <?xml>y <!DOCTYPE>
+
+- Etiqueta </html> mal cerrada.
+
+- Etiqueta <title> sin cerrada.
+
+- Etiqueta inicio <body> mal colocada.
+
+- Etiqueta </body> mal colocada.
+
+- Etiqueta <b> sin cerrada.
+
+- Etiqueta <i> sin contenido.
+
+- Hay que meter las etiquetas en <p>.
+
+- Color mal puesto, hay un espacio, y además tanto como el color como el resto de atributos no estan entrecomillados.
+
+- Las etiquetas <font> y <u> no son válidas.
+
+- La URL del validador tiene que estár entrecomillada.
+

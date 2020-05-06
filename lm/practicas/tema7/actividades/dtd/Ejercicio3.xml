@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores[
+<!ELEMENT errores (error*)>
+<!ELEMENT error (descripcion,actividad,fecha_hora,linea,columna)>
+<!ATTLIST error id ID #REQUIRED>
+<!ATTLIST error tipo (Aviso|Warning|Fatal) "Aviso">
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT actividad (#PCDATA)>
+<!ELEMENT fecha_hora (#PCDATA)>
+<!ELEMENT linea (#PCDATA)>
+<!ELEMENT columna (#PCDATA)>
+]>
+
+<h1>
+    <error id="n1" tipo="Aviso">
+      <descripcion>
+        Tipos no coinciden
+      </descripcion>
+      <actividad>
+        Ejercicio2.xml
+      </actividad>
+      <fecha_hora>
+        17/02/2020:8:50
+      </fecha_hora>
+      <linea>
+        15
+      </linea>
+      <columna>
+        3
+      </columna>
+    </error>
+    
+    <error id="n2" tipo="Fatal">
+      <descripcion>
+        
+      </descripcion>
+      <actividad>
+        Ejercicio13.xml
+      </actividad>
+      <fecha_hora>
+        17/02/2020:9:30
+      </fecha_hora>
+      <linea>
+        16
+      </linea>
+      <columna>
+        12
+      </columna>
+    </error>
+</h1>

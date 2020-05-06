@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas[
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre,mayor_de_edad?,ciudad)>
+<!ATTLIST persona dni ID #REQUIRED>
+<!ATTLIST persona formapago (Tarjeta|Contado) "Contado">
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT mayor_de_edad EMPTY>
+<!ELEMENT ciudad (#PCDATA)>
+]>
+
+<personas>
+  <persona formapago="Tarjeta" dni="aaa">
+    <nombre>Mercedes</nombre>
+    <mayor_de_edad/>
+    <ciudad>Dos Torres</ciudad>
+  </persona>
+  <persona formapago="Contado" dni="eee">
+    <nombre>Dora la Exploradora</nombre>
+    <ciudad>Dos Torres</ciudad>
+  </persona>
+</personas>
