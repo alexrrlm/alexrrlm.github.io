@@ -1,17 +1,154 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-      <title>LENGUAJE MARCAS: XML</title>
-      <item>
-        <title>XSD Paises</title>
-        <link>https://github.com/alexrrlm/xmlalex/blob/master/Ejercicios%20XSD/Clases%20online/paises.xml</link>
-        <description>XSD de paies</description>
-      </item>
-      <item>
-        <title>XSD Personas</title>
-        <link>https://github.com/alexrrlm/xmlalex/blob/master/Ejercicios%20XSD/Clases%20online/personas.xml</link>
-        <description>XSD de personas</description>
-      </item>
+    <title>LENGUAJE MARCAS: XML</title>
+    
+      <category>
+        <title>Ejercicios XSD</title>
+          <item>
+            <title>XML Paises</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsd/paises.xml</link>
+            <description>XML de paises</description>
+          </item>
+          <item>
+            <title>XSD Paises</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsd/paises.xsd</link>
+            <description>XSD de paises</description>
+          </item>
+          
+          <item>
+            <title>XML Personas</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsd/personas.xml</link>
+            <description>XML de personas</description>
+          </item>
+          <item>
+            <title>XSD Personas</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsd/personas.xsd</link>
+            <description>XSD de personas</description>
+          </item>
+          
+          <item>
+            <title>XML Personas V1</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsd/personas_V1.xml</link>
+            <description>XML de personas V1</description>
+          </item>
+          <item>
+            <title>XSD Personas V1</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsd/personas_V1.xsd</link>
+            <description>XSD de personas V1</description>
+          </item>
+          
+          <item>
+            <title>XML Personas V2</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsd/personas_V2.xml</link>
+            <description>XML de personas V2</description>
+          </item>
+          <item>
+            <title>XSD Personas V2</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsd/personas_V2.xsd</link>
+            <description>XSD de personas V2</description>
+          </item>
+          
+          <item>
+            <title>XML Ciclos</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsd/alumnos_ciclos.xml</link>
+            <description>XML de alumnos de ciclos</description>
+          </item>
+          <item>
+            <title>XSD Ciclos</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsd/alumnos_ciclos.xsd</link>
+            <description>XSD de alumnos de ciclos</description>
+          </item>
+      </category>
+      
+      <category>
+        <title>Ejercicios DTD</title>
+          <item>
+            <title>Ejercicio 1</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/dtd/Ejercicio1.xml</link>
+            <description>DTD sobre una nota</description>
+          </item>
+          
+          <item>
+            <title>Ejercicio 2</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/dtd/Ejercicio2.xml</link>
+            <description>DTD de forma de pago</description>
+          </item>
+
+          <item>
+            <title>Ejercicio 3</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/dtd/Ejercicio3.xml</link>
+            <description>DTD de errores</description>
+          </item>
+          
+          <item>
+            <title>Ejercicio 13</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/dtd/Ejercicio13.xml</link>
+            <description>DTD de una etiqueta</description>
+          </item>
+          
+          <item>
+            <title>Ejercicio 14</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/dtd/Ejercicio14.xml</link>
+            <description>DTD de una agenda</description>
+          </item>
+          <item>
+            <title>Ejercicio 15</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/dtd/Ejercicio15.xml</link>
+            <description>DTD sobre una relacion</description>
+          </item>
+          
+          <item>
+            <title>Fichero Errores</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/dtd/Fichero%20Errores.xml</link>
+            <description>DTD sobre errores de ejercicios</description>
+          </item>
+      </category>
+      
+      <category>
+        <title>Ejercicios DTD</title>
+          <item>
+            <title>XML Aemet</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsl/Aemet.xml</link>
+            <description>XML de aemet creado</description>
+          </item>
+          
+          <item>
+            <title>XSL Aemet</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsl/Aemet.xsl</link>
+            <description>XSL de aemet descargado</description>
+          </item>
+
+          <item>
+            <title>XML CD</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsl/cd.xml</link>
+            <description>XML de cd creado</description>
+          </item>
+          
+          <item>
+            <title>XSL CD</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsl/cd.xsl</link>
+            <description>XSL de cd pasado</description>
+          </item>
+          
+      </category>
+      
+      <category>
+        <title>Ejercicios DTD</title>
+          <item>
+            <title>XML Empleados</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xpath/empleados.xml</link>
+            <description>XML sobre empleados</description>
+          </item>
+          
+          <item>
+            <title>XML Biblioteca</title>
+            <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xpath/biblioteca.xml</link>
+            <description>XML sobre una biblioteca</description>
+          </item>
+          
+      </category>
+      
     </channel>
 </rss>
 
