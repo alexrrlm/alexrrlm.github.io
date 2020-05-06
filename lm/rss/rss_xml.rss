@@ -3,7 +3,7 @@
     <channel>
     <title>LENGUAJE MARCAS: XML</title>
     
-      <category>
+      <item>
         <title>Ejercicios XSD</title>
           <item>
             <title>XML Paises</title>
@@ -59,9 +59,9 @@
             <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/xsd/alumnos_ciclos.xsd</link>
             <description>XSD de alumnos de ciclos</description>
           </item>
-      </category>
+      </item>
       
-      <category>
+      <item>
         <title>Ejercicios DTD</title>
           <item>
             <title>Ejercicio 1</title>
@@ -103,9 +103,9 @@
             <link>https://github.com/alexrrlm/alexrrlm.github.io/blob/master/lm/practicas/tema7/actividades/dtd/Fichero%20Errores.xml</link>
             <description>DTD sobre errores de ejercicios</description>
           </item>
-      </category>
+      </item>
       
-      <category>
+      <item>
         <title>Ejercicios DTD</title>
           <item>
             <title>XML Aemet</title>
@@ -131,9 +131,9 @@
             <description>XSL de cd pasado</description>
           </item>
           
-      </category>
+      </item>
       
-      <category>
+      <item>
         <title>Ejercicios DTD</title>
           <item>
             <title>XML Empleados</title>
@@ -147,7 +147,7 @@
             <description>XML sobre una biblioteca</description>
           </item>
           
-      </category>
+      </item>
       
     </channel>
 </rss>
