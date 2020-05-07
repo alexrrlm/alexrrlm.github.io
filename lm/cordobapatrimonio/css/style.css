@@ -98,3 +98,35 @@ article h2{
 .pie p{
     margin: 0px 40px
 }
+
+@media (max-width: 1000px) {
+  body {
+    grid-template-areas: 
+        'cabecera cabecera cabecera cabecera cabecera cabecera'
+        'izquierda centro centro centro centro centro'
+        'derecha derecha derecha derecha derecha derecha'
+        'pie pie pie pie pie pie';
+  }
+    .derecha{
+    flex-flow: column;
+    border-left: solid 0px #33691e;
+}
+}
+@media (max-width: 800px) {
+  body {
+    grid-template-areas: 
+        'cabecera cabecera cabecera cabecera cabecera cabecera'
+        'izquierda izquierda izquierda izquierda izquierda izquierda'
+        'centro centro centro centro centro centro'
+        'derecha derecha derecha derecha derecha derecha'
+        'pie pie pie pie pie pie';
+  }
+    .izquierda{
+    flex-flow: row;
+    border-right: solid 0px #33691e;
+}
+    .izquierda a{
+    margin: 10px;
+    text-align: center;
+}
+}
