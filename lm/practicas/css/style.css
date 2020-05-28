@@ -96,3 +96,8 @@ footer p{
 .rss img{
     width: 60px;
 }
+@media (max-width: 1200px){
+    .titulo{
+        display: none;
+    }
+}
